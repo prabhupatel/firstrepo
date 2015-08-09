@@ -21,5 +21,11 @@ public class PersonRestController {
 		return "prabhu";
 		
 	}
+    	@RequestMapping("/api/customer")
+	public String getPerson(){
+		//return personService.findPersonByName(name);
+		return "prabhu";
+		
+	}
 
 }
